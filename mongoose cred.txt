@@ -1,0 +1,6 @@
+mongoose cred
+--------------------
+quickcart-ecommerce 
+-------------------
+username: salehshakib
+password: iq9MakvjNrOVSreS
