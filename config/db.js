@@ -16,7 +16,7 @@ const dbConnect = async () => {
     };
 
     cached.promise = mongoose
-      .connect(`${process.env.MONGODB}/quickcart-ecommerce`, opts)
+      .connect(`${process.env.MONGODB_URI}/quickcart-ecommerce`, opts)
       .then((mongoose) => {
         return mongoose;
       });
